@@ -1,0 +1,18 @@
+body {
+    background-color: #6a0dad;
+    font-family: 'Inter', sans-serif;
+}
+
+#construction-page {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: rgb(193, 93, 255);
+    text-align: center;
+}
+
+.char {
+  display: inline-block;
+}
