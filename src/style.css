@@ -1,16 +1,13 @@
-body {
-    background-color: #6a0dad;
-    font-family: 'Inter', sans-serif;
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-#construction-page {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    color: rgb(193, 93, 255);
-    text-align: center;
+body {
+  background-color: #20003f;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .char {
