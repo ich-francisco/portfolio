@@ -1,0 +1,9 @@
+#home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 88vh;
+  margin: 70px 10vw;
+  margin-bottom: 100vw;
+}

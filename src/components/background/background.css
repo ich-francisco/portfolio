@@ -1,38 +1,14 @@
 .background-container {
+  background-image: url('src/assets/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+
   position: fixed;
   inset: 0;
   pointer-events: none;
   overflow: hidden;
-  z-index: 0;
+  z-index: -1;
   user-select: none;
-}
-
-.background-symbol {
-  position: absolute;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-weight: 700;
-  color: #c084fc;
-}
-
-.glow-orb {
-  position: absolute;
-  border-radius: 50%;
-}
-
-.glow-orb-1 {
-  top: 33%;
-  left: 10%;
-  width: 500px;
-  height: 500px;
-  background-color: rgba(255, 255, 255, 0.09);
-  filter: blur(120px);
-}
-
-.glow-orb-2 {
-  bottom: 25%;
-  right: 10%;
-  width: 400px;
-  height: 400px;
-  background-color: rgba(255, 255, 255, 0.09);
-  filter: blur(100px);
 }

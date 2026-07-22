@@ -3,28 +3,26 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 10%;
-  background-color: rgba(0, 0, 0, 0);
+  height: 70px;
+  background-color: #0000;
   z-index: 1000;
     
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: clamp(20px, 5vh, 7vh) 10vw;
-    
-  font-family: monospace; 
+  padding: 20px 10vw;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
-  box-sizing: border-box;
 }
 
 .logo {
-  font-size: 1.7rem;
-  font-weight: bold;
-  color: #ffffd7;
+  font-size: 1.1rem;
+}
+
+.lt-gt {
+  color: var(--primary-color);
 }
 
 .nav-links {
@@ -34,11 +32,14 @@ a {
 }
 
 .nav-links a {
-  color: #ffffd7;
   font-size: 1.1rem;
   transition: color 0.2s ease;
 }
 
-.navbar a:hover {
+.logo :hover {
+  color: #a9a9a9;
+}
+
+.nav-links :hover {
   color: #a9a9a9;
 }

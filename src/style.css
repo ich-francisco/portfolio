@@ -1,12 +1,23 @@
+:root {
+  --primary-color: #8100ff;
+  --secondary-color: #9d00ff;
+  --background-color: #2f2f2f;
+  --text-color: #fffbe2;
+  --primary-font: 'Plus Jakarta Sans', sans-serif;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+* {
+  color: var(--text-color);
+}
+
 body {
-  background-color: #20003f;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--primary-font);
   scroll-behavior: smooth;
 }
 
